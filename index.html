@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NIM GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1> PLAY NIM GAME </h1>
+</header>
+<section>
+    <form id="gameinfos">
+        <label for="gamemode">GAME MODE : </label>
+        <span id = "gamemode">
+            <label for="gmsolo" >SOLO </label>
+            <input type="radio" id="gmsolo" name="gamemode" required/>
+            <label for="gmsolo" >MULTI </label>
+            <input type="radio" id="gmmulti" name="gamemode" required/>
+        </span>
+        <label for="gamerule">GAME MODE : </label>
+        <span id = "gamerule">
+            <label for="lastloose" >LAST LOOSE </label>
+            <input type="radio" id="lastloose" name="gamerule" required/>
+            <label for="lastwin" >LAST WIN </label>
+            <input type="radio" id="lastwin" name="gamerule" required/>
+        </span>
+        <label for="playerinfos"> PLAYER INFOS </label>
+        <div id="playerinfos" >
+            <span>
+                <label for="j1" > PLAYER 1 </label>
+                <input type="text" id="j1" placeholder="Joueur 1" required/>
+            </span>
+            <span>
+                <label for="j2"> PLAYER 2 </label>
+                <input type="text" id = "j2" placeholder = "Joueur 2" required/>
+            </span>
+        </div>
+
+
+        <input type="submit" NAME="sub" id="sub" VALUE="Let's Play ">
+    </form>
+</section>
+<section id = "jeu">
+    <div class="plateau" id="plateau">
+
+    </div>
+    <div id="sideinfos" class="sideinfos">
+
+    </div>
+</section>
+<script src="main.js" > </script>
+<body>
+
+</body>
+</html>
