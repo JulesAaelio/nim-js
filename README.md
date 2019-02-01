@@ -9,5 +9,3 @@ Learn more about nim/marienbad game :
 https://fr.wikipedia.org/wiki/Jeu_de_Marienbad
 https://fr.wikipedia.org/wiki/Jeux_de_Nim
 
-Demo at : http://projects.juleslaurent.tk/nim
-
